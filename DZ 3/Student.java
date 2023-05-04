@@ -1,4 +1,5 @@
 public class Student {
+	//использовать инкапсуляцию - все поля ниже должны быть с модификатором доступа private
 	int course;
 	int stId;
 	String fio;
@@ -10,13 +11,16 @@ public class Student {
 	}
 
 	public Student(int stId, String fio, String fakult, int group, int course, int birth) {
-		this.course = course;
+		this.course = course; // в задании сказано "В университете учатся студенты с 1 по 5 курс". если я передам другое значение, напиример 100 - конструктор его примет.
 		this.stId = stId;
 		this.fio = fio;
 		this.fakult = fakult;
 		this.group = group;
 		this.birth = birth;
 	}
+
+	//геттеры и сеттеры заданы не для всех полей.
+	// в задании сказано "Объект класса Student должен уметь представиться." данный метод отсутвует в данном классе
 
 	public void setId(int stId) {
 		this.stId = stId;

@@ -1,8 +1,8 @@
-public class Homework3 {
+public class Homework3 { //почему Homework3, если это задачи урока 5?
 	// Объекты для Задания №3
 
 	public static void main(String[] args) {
-		// Задача №1
+		// Задача №1 // вынести в отдельный класс. раскомментировать код, программа должна работать при запуске.
 
 		/*
 		 * RanClass ranClass1 = new RanClass();
@@ -10,7 +10,8 @@ public class Homework3 {
 		 * System.out.println("Стандартный символ: " + ranClass1.getCharacter());
 		 */
 
-		// Задача №2
+		// Задача №2 // вынести в отдельный класс.
+
 
 		/*
 		 * Fraction objectFirst = new Fraction();
