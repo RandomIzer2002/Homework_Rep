@@ -11,8 +11,8 @@ public class DZ1Task6 {
 		System.out.print("Введите третье число: ");
 		int c = scanner.nextInt();
 		int d = b * b - 4 * a * c;
-		double x1 = (-b - Math.sqrt(1.0 * d)) / (2 * a);
-		double x2 = (-b + Math.sqrt(1.0 * d)) / (2 * a);
+		double x1 = (-b - Math.sqrt(1.0 * d)) / (2 * a); //деление на 0 при а = 0
+		double x2 = (-b + Math.sqrt(1.0 * d)) / (2 * a); //деление на 0 при а = 0
 		if (d == 0) {
 			System.out.printf("Один корень: %.0f\n", x1);
 		} else if (d < 0) {

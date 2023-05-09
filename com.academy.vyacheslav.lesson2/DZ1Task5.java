@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class DZ1Task5 {
 
 	// Fail
+	//при вводе значния 22 программа вывела "22 Лет".
+	//при вводе значния 12 программа вывела "12 Года".
+	// в общем нужно исправить и проверить еще раз на различных значениях
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
