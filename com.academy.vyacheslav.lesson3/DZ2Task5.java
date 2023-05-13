@@ -16,13 +16,13 @@ public class DZ2Task5 {
 		maxMethod();
 	}
 
-	public static void minMethod() {
+	public static void minMethod() { //метод должны принимать массив
 		int[] minArray = { 10, 5, 3, 7, 1, 12, 13, 9 };
 		Arrays.sort(minArray);
 		System.out.println(minArray[0]);
 	}
 
-	public static void maxMethod() {
+	public static void maxMethod() { //метод должны принимать массив
 		int[] maxArray = { 10, 5, 3, 7, 1, 12, 13, 9 };
 		Arrays.sort(maxArray);
 		System.out.println(maxArray[maxArray.length - 1]);

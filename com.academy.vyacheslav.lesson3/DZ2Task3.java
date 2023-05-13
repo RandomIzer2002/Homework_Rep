@@ -7,7 +7,7 @@ public class DZ2Task3 {
 		String passwordCreate = scanner.nextLine();
 		System.out.print("Введите пароль: ");
 		String password = scanner.nextLine();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 2; i++) { //код работает, но подход не верный. необходимо использовать цикл do while
 			if (password.equals(passwordCreate)) {
 				System.out.println("Пароль введён правильно, добро пожаловать!");
 			} else {

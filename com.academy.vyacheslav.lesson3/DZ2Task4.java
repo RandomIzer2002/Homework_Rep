@@ -42,7 +42,7 @@ public class DZ2Task4 {
 	}
 
 	public static void arrNums() {
-		int[] numArray = { 21, 1, 6, 14, 5, 11, 9, 7, 8 };
+		int[] numArray = { 21, 1, 6, 14, 5, 11, 9, 7, 8 }; //метод должен ПРИНИМАТЬ массив элементов, а не инициализировать их.
 		for (int i = 0; i < numArray.length; i++) {
 			System.out.print(numArray[i] + " ");
 		}
@@ -50,7 +50,7 @@ public class DZ2Task4 {
 	}
 
 	public static void conditionArrNums() {
-		int[] numArray = { 21, 1, 6, 14, 5, 11, 9, 7, 8 };
+		int[] numArray = { 21, 1, 6, 14, 5, 11, 9, 7, 8 }; //метод должен ПРИНИМАТЬ массив элементов, а не инициализировать их.
 		for (int i = 0; i < numArray.length; i++) {
 			if (numArray[i] % 7 == 0) {
 				continue;
