@@ -1,4 +1,4 @@
-public class Parallelepiped<T extends Number> extends Rectangle<T> {
+public class Parallelepiped<T extends Number> extends Rectangle2<T> {
 
     protected T height;
 
