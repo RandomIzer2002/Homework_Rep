@@ -1,4 +1,4 @@
-public class Rectangle<T extends Number> extends Line<T> {
+public class Rectangle2<T extends Number> extends Line<T> {
 
     protected T width;
 
