@@ -1,7 +1,7 @@
 public class DZ9Task4 {
     public static void main(String[] args) {
         Line<Integer> line = new Line<>(5);
-        Rectangle<Integer> rectangle = new Rectangle<>(3, 4);
+        Rectangle2<Integer> rectangle = new Rectangle2<>(3, 4);
         Parallelepiped<Double> parallelepiped = new Parallelepiped<>(2.5, 3.5, 4.5);
         Cube<Integer> cube = new Cube<>(2);
 
