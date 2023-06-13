@@ -12,3 +12,9 @@ public class DZ8Task2 {
         scanner.close();
     }
 }
+/*
+Введите строку: dfgvfdsg      df g df g        df g dfg        dfg
+Нормированная строка: dfgvfdsg      df g df g        df g dfg        dfg
+
+мне выдало вот такой результат
+ */
