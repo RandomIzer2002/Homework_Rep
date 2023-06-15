@@ -1,4 +1,4 @@
-public class Rectangle2<T extends Number> extends Line<T> {
+public class Rectangle2<T extends Number> extends Line<T> { //несоответствие имени файла и конструкторов. код не компилируется
 
     protected T width;
 
@@ -27,7 +27,7 @@ public class Rectangle2<T extends Number> extends Line<T> {
 
     @Override
     public double getVolume() {
-        throw new IllegalArgumentException("Невозможно посчитать значение 2D фигуры");
+        throw new IllegalArgumentException("Невозможно посчитать значение 2D фигуры"); //этот метод не должен вобще вызываться у прямоугольника
     }
 
 }
