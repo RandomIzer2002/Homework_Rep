@@ -11,4 +11,8 @@ public class ShapeManager {
     public static double getVolume(GeometricShape<?> shape) {
         return shape.getVolume();
     }
+
+    public static double getPerimeter(GeometricShape<?> shape) {
+        return shape.getPerimeter();
+    }
 }
