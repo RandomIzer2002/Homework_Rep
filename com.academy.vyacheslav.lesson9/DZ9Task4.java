@@ -12,6 +12,7 @@ public class DZ9Task4 {
         System.out.println(ShapeManager.getArea(rectangle)); // 12.0
 
         System.out.println(ShapeManager.getLength(parallelepiped)); // 12.5
+        System.out.println(ShapeManager.getPerimeter(parallelepiped)); // 12.0
         System.out.println(ShapeManager.getArea(parallelepiped)); // 68.0
         System.out.println(ShapeManager.getVolume(parallelepiped)); // 39.375
 
