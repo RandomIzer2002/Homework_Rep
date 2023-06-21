@@ -17,7 +17,7 @@ public class Parallelepiped<T extends Number> extends Rectangle2<T> {
 
     @Override
     public double getPerimeter() {
-        throw new IllegalArgumentException("Невозможно посчитать периметр 3D фигуры");
+        return 2 * (length.doubleValue() + width.doubleValue());
     }
 
     @Override
