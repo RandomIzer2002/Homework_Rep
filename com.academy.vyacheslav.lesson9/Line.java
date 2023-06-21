@@ -8,4 +8,14 @@ public class Line<T extends Number> extends GeometricShape<T> {
     public double getPerimeter() {
         return length.doubleValue();
     }
+
+    @Override
+    public double getArea() {
+        throw new IllegalArgumentException("Невозможно посчитать площадь линии");
+    }
+
+    @Override
+    public double getVolume() {
+        throw new IllegalArgumentException("Невозможно посчитать значение линии");
+    }
 }
