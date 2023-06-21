@@ -2,7 +2,7 @@ public class Rectangle2<T extends Number> extends Line<T> {
 
     protected T width;
 
-    public Rectangle(T length, T width) {
+    public Rectangle2(T length, T width) {
         super(length);
         this.width = width;
     }
