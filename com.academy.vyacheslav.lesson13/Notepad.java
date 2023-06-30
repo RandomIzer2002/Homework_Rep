@@ -7,7 +7,7 @@ public class Notepad {
     private Map<String, Note> notes;
 
     public Notepad() {
-        notes = new TreeMap<>();
+        notes = new TreeMap<>(); //не задан компаратор, если менять месяцы и годы в дате, то сортировка не работает
     }
 
     public void addNote(String date, String lastName) throws NoteAlreadyExistsException {
