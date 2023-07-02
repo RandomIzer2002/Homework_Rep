@@ -2,11 +2,13 @@ public class MyThread extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 500; i++) {
-            synchronized (DZ15Task3.value) {
+            synchronized (DZ15Task3.value) { //это не нужно здесь. синхронизацию в 15 задании обеспечивать не нужно.
+                //и посмотри лекцию 16, как правильно выбирать монитор и почему использовать объект Integer для этого - плохая идея.
                 DZ15Task3.value++;
             }
             if (i % 10 == 0) {
-                throw new RuntimeException("Поток прерван");
+                throw new RuntimeException("Поток прерван"); //у тебя прерываются все потоки, а не только каждый десятый. и прервать его нужно до того как
+                //он успеет изменить состояние переменной value
             }
         }
     }
